@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+</head>
+<style>
+  body {
+
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+
+header {
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+.logo {
+width: 150px;
+}
+
+header > h2 {
+margin-left: 10px;
+}
+
+footer {
+background-color: #333;
+text-align: center;
+padding: 10px;
+}
+
+h1 {
+color: #333;
+text-align: center;
+}
+
+form {
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+width: 300px;
+padding: 5px;
+}
+
+textarea {
+height: 100px;
+}
+
+input[type="submit"] {
+margin-top: 10px;
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+nav {
+background-color: #333;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+nav a {
+color: #fff;
+margin: 0 10px;
+text-decoration: none;
+}
+
+.container {
+text-align: left;
+display: flex;
+}
+
+.left>h1,h2,h3,h4,h5,h6,p , .right>h1,h2,h3,h4,h5,h6,p {
+color: red;
+}
+
+.left {
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #333;
+border: grey solid 4px ;
+flex: 1;
+padding: 20px;
+margin: 20px;
+
+}
+
+.centered-content {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.right {
+text-align: center;
+flex: 1;
+padding: 20px;
+margin: 20px;
+
+}
+
+.centered-h3 {
+text-align: center;
+}
+</style>
+<body>
+  <header>
+    <img class="logo" src="Logo 3.jpg" alt="Notre logo">
+  </header>
+
+  <nav>
+    <a href="trs-immo-Acceuil.html">Acceuil</a>
+    <a href="trs-immo-Projets.html">Projets</a>
+    <a href="trs-immo-àpropos.html">À propos</a>
+    <a href="trs-immo-Contact.html">Contact</a>
+  </nav>
+
+  <br><br><br><br><br>
+  
+  <div class="container">
+    <div class="left">
+      <h3 class="centered-h3">
+        Campus, Sidi Bel Abbès, Algeria, 22000 <br><br><br>
+        +(213)561-61-73-29 <br> <br><br>
+        Kaddour.tires@gmail.com 
+      </h3>
+    </div>
+    <div class="right">
+      
+      <h1>Restons en contact</h1>
+      
+      <hr>
+
+      <form action="trs-immo-sub.php" method="post">
+        <label for="name"></label>
+        <input type="text" placeholder="Nom:" id="name" name="name" required>
+    
+        <label for="email"></label>
+        <input type="text" placeholder="Email:" id="email" name="email" required>
+    
+        <label for="message"></label>
+        <textarea id="message" placeholder="Message:" name="message" required></textarea>
+    
+        <label for="submit_form">
+          <input type="submit" value="Submit">
+        </label>
+          
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <h3>
+      © 2023 Tires-immo by Kada
+    </h3>
+  </footer>
+</body>
+</html>
