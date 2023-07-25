@@ -2,122 +2,139 @@ body {
 
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: serif;
   margin: 0;
   padding: 0;
-}
-
-
-
-header {
+  }
+  
+  
+  
+  header {
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-}
-
-.logo {
+  }
+  
+  .logo {
   width: 150px;
-}
-
-header > h2 {
+  }
+  
+  header > h2 {
   margin-left: 10px;
-}
-
-footer {
+  }
+  
+  footer {
   background-color: #333;
   text-align: center;
+  color: grey;
   padding: 10px;
-}
-
-h1 {
+  }
+  
+  h1 {
   color: #333;
   text-align: center;
-}
-
-form {
+  }
+  
+  form {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-label {
+  }
+  
+  label {
   display: block;
   margin-top: 10px;
-}
-
-input[type="text"],
-textarea {
+  }
+  
+  input[type="text"],
+  textarea {
   width: 300px;
   padding: 5px;
-}
-
-textarea {
+  }
+  
+  textarea {
   height: 100px;
-}
-
-input[type="submit"] {
+  }
+  
+  input[type="submit"] {
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #333;
   color: #fff;
   border: none;
   cursor: pointer;
-}
-
-nav {
+  }
+  
+  nav {
   background-color: #333;
   display: flex;
   justify-content: center;
   padding: 10px;
-}
-
-nav a {
+  }
+  
+  nav a {
   color: #fff;
-  margin: 0 10px;
+  margin: 0 20px;
   text-decoration: none;
-}
-
-.container {
+  }
+  
+  .container {
   text-align: left;
   display: flex;
-}
-
-.left>h1,h2,h3,h4,h5,h6,p , .right>h1,h2,h3,h4,h5,h6,p {
+  }
+  
+  .left>h1,h2,h3,h4,h5,h6,p , .right>h1,h2,h3,h4,h5,h6,p {
   color: red;
-}
-
-.left {
-
+  }
+  
+  .left {
+  
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #333;
   border: grey solid 4px ;
+  border-radius: 3%;
   flex: 1;
   padding: 20px;
   margin: 20px;
-
-}
-
-.centered-content {
+  
+  }
+  
+  .effect:hover {
+    font-size: large;
+  }
+  
+  .centered-content {
   display: flex;
   justify-content: center;
   align-items: center;
-
-}
-
-.right {
+  
+  }
+  
+  .right {
   text-align: center;
   flex: 1;
   padding: 20px;
   margin: 20px;
   
-}
-
-.centered-h3 {
+  }
+  
+  .centered-h3 {
   text-align: center;
+  }
+  
+  
+  
+  u {
+    color: red;
+  }
+  
+.btn:hover {
+  background-color: darkgreen;
+  font-size:medium;
 }
